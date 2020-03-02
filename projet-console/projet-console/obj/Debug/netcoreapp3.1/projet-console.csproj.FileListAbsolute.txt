@@ -1,0 +1,11 @@
+C:\Users\mbds\source\repos\projet-console\projet-console\bin\Debug\netcoreapp3.1\projet-console.exe
+C:\Users\mbds\source\repos\projet-console\projet-console\bin\Debug\netcoreapp3.1\projet-console.deps.json
+C:\Users\mbds\source\repos\projet-console\projet-console\bin\Debug\netcoreapp3.1\projet-console.runtimeconfig.json
+C:\Users\mbds\source\repos\projet-console\projet-console\bin\Debug\netcoreapp3.1\projet-console.runtimeconfig.dev.json
+C:\Users\mbds\source\repos\projet-console\projet-console\bin\Debug\netcoreapp3.1\projet-console.dll
+C:\Users\mbds\source\repos\projet-console\projet-console\bin\Debug\netcoreapp3.1\projet-console.pdb
+C:\Users\mbds\source\repos\projet-console\projet-console\obj\Debug\netcoreapp3.1\projet-console.csprojAssemblyReference.cache
+C:\Users\mbds\source\repos\projet-console\projet-console\obj\Debug\netcoreapp3.1\projet-console.AssemblyInfoInputs.cache
+C:\Users\mbds\source\repos\projet-console\projet-console\obj\Debug\netcoreapp3.1\projet-console.AssemblyInfo.cs
+C:\Users\mbds\source\repos\projet-console\projet-console\obj\Debug\netcoreapp3.1\projet-console.dll
+C:\Users\mbds\source\repos\projet-console\projet-console\obj\Debug\netcoreapp3.1\projet-console.pdb

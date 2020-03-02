@@ -1,0 +1,9 @@
+C:\Users\mbds\source\repos\projet-console\partie wpf\obj\Debug\partie wpf.csprojAssemblyReference.cache
+C:\Users\mbds\source\repos\projet-console\partie wpf\obj\Debug\MainWindow.g.cs
+C:\Users\mbds\source\repos\projet-console\partie wpf\obj\Debug\App.g.cs
+C:\Users\mbds\source\repos\projet-console\partie wpf\obj\Debug\partie wpf_MarkupCompile.cache
+C:\Users\mbds\source\repos\projet-console\partie wpf\obj\Debug\partie wpf_MarkupCompile.lref
+C:\Users\mbds\source\repos\projet-console\partie wpf\obj\Debug\MainWindow.baml
+C:\Users\mbds\source\repos\projet-console\partie wpf\obj\Debug\partie wpf.g.resources
+C:\Users\mbds\source\repos\projet-console\partie wpf\obj\Debug\partie_wpf.Properties.Resources.resources
+C:\Users\mbds\source\repos\projet-console\partie wpf\obj\Debug\partie wpf.csproj.GenerateResource.cache

@@ -1,0 +1,92 @@
+﻿<Window x:Class="ApplicationWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ApplicationWPF"
+        mc:Ignorable="d"
+        Title="partie wpf" Height="744.828" Width="1079.31" WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <DataTemplate x:Key="MySettings" >
+
+            <StackPanel>
+
+
+            </StackPanel>
+
+        </DataTemplate>
+    </Window.Resources>
+
+    <DockPanel>
+      
+        <TabControl Margin="50,50,25,30" Name="tabA">
+
+            <TabItem Header="Carte" Name="carte">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Canvas Name="canvas_carte" Background="Blue" Grid.Column="0" Grid.Row="0" Height="442" 
+                        VerticalAlignment="Top" HorizontalAlignment="left" Width="439" Margin="10,10,0,0">
+                        <Image x:Name="image" Source="carte.png" RenderTransformOrigin="0.5,0.5" Canvas.Top="1" Width="440"   >
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform Angle="-0.479"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Canvas>
+
+                 
+                    <DataGrid Grid.Column="1" Margin="10,10,10,0" Height="auto" VerticalAlignment="Top" Name="grid2" ItemsSource="{Binding Cities}" IsReadOnly="True" AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}"  Width="250" />
+                            <DataGridTextColumn Header="X" Binding="{Binding xCord}"  Width="110" />
+                            <DataGridTextColumn Header="Y"  Binding="{Binding yCord}" Width="120" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Run" Name="tab_run">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30*"/>
+                        <ColumnDefinition Width="17*"/>
+                        <ColumnDefinition Width="212*"/>
+                        <ColumnDefinition Width="245*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <DataGrid Grid.Row="0" Margin="10,10,10,0" Height="auto" VerticalAlignment="Top" Name="grid" ItemsSource="{Binding Generation}" IsReadOnly="True">
+                        <DataGrid.Columns>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <Grid Grid.Row="1" Grid.ColumnSpan="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="8*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Margin="10,10,10,10" Name="path"  Grid.Column="0" VerticalAlignment="Stretch" Text="Generate shortest path"></TextBlock>
+                        <Button Margin="10"  Grid.Column="1" Click="StartAlgo" Name="run" >Run</Button>
+
+                    </Grid>
+
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+
+    </DockPanel>
+
+
+
+</Window>
